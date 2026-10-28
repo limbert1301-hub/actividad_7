@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi Tienda{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Inicio</a> | <a href="/blog/entrada/1">Blog</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 - Mi Tienda Virtual</p>
+    </footer>
+</body>
+</html>
